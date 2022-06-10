@@ -18,37 +18,51 @@
         h1 {
             color: #f9c16d;
         }
-        
         header {
             text-align: center;
         }
-
         button {
             border: hidden;
             border-radius: 5px;
             background-color: #f9c16d;
             font-size: 17px;
         }
-        
         main {
             background-color: #ba8f4f;
             width: 60%;
             flex-direction: column;
             margin-top: 10px;
         }
-        h2 {
+        span {
+            color: #4a2b43;
+            text-align: center;
+            margin: 30px 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            display: block;
+        }
+        li>span {
+            color: #952626;
+        }
+        p {
             color: #6a2e2e;
             text-align: center;
+            margin: 20px;
+            font-size: 1.17em;
+            font-weight: bold;
         }
-        h3 {
-            color: #6a2e2e;
-            text-align: center;
-        }
-        
         img {
             display: flex;
             margin: 0 auto;
             border:none;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .anospan {
+            color: #0a3405;
         }
     </style>
     <header>
@@ -62,146 +76,132 @@
     </header>
     <main>
         <section>
+            <span>Introdução</span>
+            <p>O spellbreak é permeado por mecânicas que tornam ele um jogo mágico, tais como mana, levitação, esquiva, manoplas e suas magias, runas que te concedem poderes, equipamentos de combate, poções de cura e fragmentos de escudo, talentos, bênçãos e baús.</p>
             <article>
-                <header><h2>Introdução</h2></header>
-                <h3>O spellbreak é permeado por mecânicas que tornam ele um jogo mágico, tais como mana, levitação, esquiva, manoplas e suas magias, runas que te concedem poderes, equipamentos de combate, poções de cura e fragmentos de escudo, talentos, bênçãos e baús.</h3>
-                <article>
-                    <header><h2>Mana</h2></header> 
-                    <h3>A mana é algo intrínseco aos humanos, no jogo se você entrar em uma partida de battle royale normal, você terá a sua disposição 50 de mana inicial, e no modo dominion, 70.</h3>
-                </article>
-                <article>
-                    <header><h2>Levitação</h2></header>
-                    <h3>No spellbreak existe a mecânica de levitação, onde o personagem pula 1m e a cada levitação descontinua ele sobre aproximadamente 4m.</h3>
-                </article>
-                <article>
-                    <header><h2>Esquiva</h2></header>
-                    <h3>A esquiva, que foi implementada no cap. 3 assumindo o lugar do agachamento, é um impulso que o personagem dá, exclusivamente, para os lados, ou seja, não vai nem para cima e nem para baixo por si só.</h3>
-                </article>
-                <article>
-                    <header><h2>Poções e fragmentos</h2></header>
-                    <h3>Após você tomar algum dano mágico seja no seu escudo ou na sua vida existem as poções de vida, as poções de proteção, que reparam vida e escudo e os fragmentos de escudo. Existe uma poção que te concede +2 cargas de poder secundário e de runa.</h3>
-                </article>
-                <article>
-                    <header><h2>Talentos</h2></header>
-                    <h3>Cada ser humano tem 7 pontos de talento para administrar entre habilidades do corpo, da mente e do espirito, as quais te dão habilidades de redução de efeitos negativos, recuperar vida ao dar dano, não ser aturdido após morrer e muito mais. 
-                    Cada talento possui 3 níveis, e para você conseguir melhorar seus talentos você precisa ler o que nós chamamos de pergaminhos com cada parte tendo o seu próprio pergaminho (alguns talentos são renováveis podendo-se ler mais de 3 pergaminhos).</h3>
-                </article>
-                <article>
-                    <header><h2>Benção</h2></header>
-                    <h3>Cada manopla tem seu respectivo santuário, que são lugares se dedicam a te dar uma manopla rara e a benção da manopla, que concede ao usuário o nível 1 do respectivo elemento. (dica: pegue a benção exclusivamente de uma manopla secundária)</h3>
-                </article>
-                <article>
-                    <header><h2>Baús</h2></header>
-                    <h3>existem 5 tipos de báus: temos 3 deles que são de tamanho (pequeno, médio e grande), temos o baú épico que te da alguma coisa épica e um pergaminho e temos as esféras de mana, que são baús um pouco diferentes. 
-                    As esféras de mana são os únicos baús que abrem em 20s e são capazes de dar itens lendários, assim como um baú épico elas dropam um pergaminhi também, porém as esféras não dão apenas itens lendários, elas podem dar itens épicos também.</h3>
-                </article>
+                <span>Mana</span> 
+                <p>A mana é algo intrínseco aos humanos, no jogo se você entrar em uma partida de battle royale normal, você terá a sua disposição 50 de mana inicial, e no modo dominion, 70.</p>
             </article>
             <article>
-                <header><h2>Vestindo a primeira manopla</h2></header>
-                <h3>Cada manopla, atualmente 6, tem suas magias, suas habilidades e seus níveis. quando você começa no jogo, ele te da apenas a opção de jogar com a manopla de fogo. 
-                Para iniciar a fila de algum modo de jogo você precisa obrigatoriamente selecionar uma manopla como sendo a principal, já que no decorrer do jogo você vai ganhando habilidades novas (as manoplas secundárias não ganham novas habilidades, exceto ao se pegar uma benção ou com o talento de ambidestro, os quais só garantem o nível 1 da manopla).</h3>
-                <ul>
-                    <li>
-                        <article>
-                            <header><h2>Manopla de fogo (piromantes)</h2></header>
-                            <h3>sua magia é atirar bolas de fogo e como seu poder secundário ela invoca uma parede de fogo.</h3>
-                            <ul>
-                                <li><header><h2>nível 1 (combustão)</h2></header><h3>inimigos com acerto direto são incendiados por 2s. raio de explosão da bola de fogo é de +200%.</h3></li>
-                                <li><header><h2>nível 2 (vaga-lume)</h2></header><h3>suas paredes de fogo agora não te causam mais dano e ao passar pela sua parede de fogo você voa por 2s.</h3></li>
-                                <li><header><h2>nível 3 (pirólise)</h2></header><h3>suas paredes de fogo queimam com um fogo azul por 2s que da mais 100% de dano.</h3></li>
-                                <li><header><h2>nível 4 (conflagração)</h2></header><h3>suas bolas de fogo ao acertarem algo se quebram em novos 6 pedacinhos que incendeiam os inimigos.</h3></li>
-                            </ul>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header><h2>Manopla de pedra (moldapedras)</h2></header>
-                            <h3>sua magia é atacar o chão e criar uma fenda no chão chamada abalo sísmico e seu poder secundário é moldar uma bola de pedra e atira-la.</h3>
-                            <ul>
-                                <li><header><h2>nível 1 (pele de pedra)</h2></header><h3>o usuário recebe 20 de escudo adicional e ao criar um abalo sísmico reparar 3 de escudo.</h3></li>
-                                <li><header><h2>nível 2 (alicerce)</h2></header><h3>ao usar um abalo sísmico o usuário irá acelerar em direção ao chão.</h3></li>
-                                <li><header><h2>nível 3 (acreção)</h2></header><h3>a sua pedra cresce de tamanho conforme fica no ar.</h3></li>
-                                <li><header><h2>nível 4 (avalanche)</h2></header><h3>o usuário consegue carregar uma pedra adicional.</h3></li>
-                            </ul>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header><h2>Manopla de raio (conduíte)</h2></header>
-                            <h3>sua magia é lançar flechas de raio e como poder secundário você invoca um raio.</h3>
-                            <ul>
-                                <li><header><h2>nível 1 (energia potencial)</h2></header><h3>para cada flecha lançada o dano aumenta em mais 1 estagnando em mais 5 até o fim da conjuração.</h3></li>
-                                <li><header><h2>nível 2 (sobrecarga)</h2></header><h3>ao invocar um raio você ganha 1 carga de runa adicional.</h3></li>
-                                <li><header><h2>nível 3 (pico de energia)</h2></header><h3>ao invocar um raio suas flechas de mana passarão a custar 0 de mana e sua mana regenera mais rápido por 4s.</h3></li>
-                                <li><header><h2>nível 4 (descarga secundária)</h2></header><h3>ao invocar um raio caem 5 raios no lugar invocado.</h3></li>
-                            </ul>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header><h2>Manopla de tóxico (toxicologista)</h2></header>
-                            <h3>sua magia é atirar jatos de veneno e como poder secundário você lança uma núvem tóxica.</h3>
-                            <ul>
-                                <li><header><h2>nível 1 (viscosidade)</h2></header><h3>ao entrar em contato com o chão os jatos tóxicos formam uma poça pegajosa que da dano.</h3></li>
-                                <li><header><h2>nível 2 (névoa evanescente)</h2></header><h3>o usuário se torna imune à sua própria nuvem tóxica e ao passar por ela você fica invisível por 3s e é impulsionado.</h3></li>
-                                <li><header><h2>nível 3 (surto)</h2></header><h3>enquanto estiver invisível os jatos tóxicos darão +75% de dano.</h3></li>
-                                <li><header><h2>nível 4 (espalhando a doença)</h2></header><h3>o usuário atira 3 nuvens tóxicas de uma vez.</h3></li>
-                            </ul>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header><h2>Manopla de gelo (filho do gelo)</h2></header>
-                            <h3>sua magia é criar uma flecha de gelo e como poder secundário o usuário conjura uma um anel de gelo que congela quem estiver dentro dele menos o usuário.</h3>
-                            <ul>
-                                <li><header><h2>nível 1 (entusiasmo congelado)</h2></header><h3>sua flecha de gelo deixa um rastro na superfície, você ganha velocidade e fica imune ao congelamento e retardamento.</h3></li>
-                                <li><header><h2>nível 2 (estaca de gelo)</h2></header><h3>ao mirar você a silhueta dos inimigos aparece e ao estar 100% carregado a flecha custará 0 de mana.</h3></li>
-                                <li><header><h2>nível 3 (tundra)</h2></header><h3>enquanto cunjura seu anel de gelo o usuário fica imune e o anel perdura por mais 100%.</h3></li>
-                                <li><header><h2>nível 4 (prisma de gelo)</h2></header><h3>ao sobrecarrecar por mais 0,5s a flecha dará mais 35% de dano.</h3></li>
-                            </ul>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                            <header><h2>Manopla de vento (tempestade)</h2></header>
-                            <h3>sua magia é lançar navalhas de ar e como poder secundário o usuário conjura um tornado.</h3>
-                            <ul>
-                                <li><header><h2>nível 1 (explosão de vento)</h2></header><h3>ao atirar navalhas de vento pelas superfícies o usuário é jogada para trás.</h3></li>
-                                <li><header><h2>nível 2 (corrente de ar)</h2></header><h3>usuário imune à atração de seu tornado e ao entrar nele, levado ao ar.</h3></li>
-                                <li><header><h2>nível 3 (ventania)</h2></header><h3>ao atirar navalhas em alguma superfície ou entrar em seu tornado o usuário receberá um aumento de 20% de dano mágico e menos 10% de dano.</h3></li>
-                                <li><header><h2>nível 4 (rajada súbita)</h2></header><h3>por 1s ao estar no ar sua velocidade de recarga de feitiço aumenta em 100%.</h3></li>
-                            </ul>
-                        </article>
-                    </li>
-                </ul>
+                <span>Levitação</span>
+                <p>No spellbreak existe a mecânica de levitação, onde o personagem pula 1m e a cada levitação descontinua ele sobre aproximadamente 4m.</p>                
             </article>
             <article>
-                <header><h2>Usando a primeira runa</h2></header>
-                <h3>As runas são itens que em suma te darão alguma espécie de movimento, como a runa da investida(popularmente chamada de dash), mas existem outras runas que não tem o foco em te dar um movimento imediato. Atualmente existem 9 runas:</h3>
-                <ul>
-                    <li><header><h2>Runa de passos sombrios</h2></header><h3>essa runa te torna invisível por 1s e te leva 8m para para frente.</h3></li>
-                    <li><header><h2>Runa de teletransporte</h2></header><h3>essa runa te teletransporta para a posição desejada (máx. de 60m).</h3></li>
-                    <li><header><h2>Runa do mestre do tempo</h2></header><h3>ao ativar a runa ela irá gravar o seu estado físico e após 4s irá te retornar ao mesmo lugar e com a msm quantidade de vida e escudo e retira efeitos negativos.</h3></li>
-                    <li><header><h2>Runa do sangue de lobo</h2></header><h3>ao ativar a runa o usuário será capaz de ver os inimigos atrás de qualquer coisa em um raio de 100m e ganhará +4 de velocidade.</h3></li>
-                    <li><header><h2>Runa dos passos saltitantes</h2></header><h3>ao usar ela o usuário dará um salto de 15m e subir uma altura de 5m.</h3></li>
-                    <li><header><h2>Runa do voo</h2></header><h3>o usuário será capaz de voar por 5s, mas será interrompido após uma colisão ou ao usar outro movimento.</h3></li>
-                    <li><header><h2>Runa da pluma</h2></header><h3>o usuário será levado aos céus por 22m e só poderá ser utilizada outra vez após tocar o chão. após chegar ao seu ápice começará a cair lentamente ou até que o usuário use alguma magia.</h3></li>
-                    <li><header><h2>Runa da investida</h2></header><h3>ao usar a runa era te impulsionará para a direção escolhida por até 16m.</h3></li>
-                    <li><header><h2>Runa da invisibilidade</h2></header><h3>essa runa te deixa invisível e te da um bônus de +3 de velocidade por 8s.</h3></li>
-                </ul>
+                <span>Esquiva</span>
+                <p>A esquiva, que foi implementada no cap. 3 assumindo o lugar do agachamento, é um impulso que o personagem dá, exclusivamente, para os lados, ou seja, não vai nem para cima e nem para baixo por si só.</p>
             </article>
             <article>
-                <header><h2>Jóias Magicas</h2></header>
-                <h3>Os equipamentos são: o amuleto, que da mais mana(começa com +10 e vai até +50), o cinto, que te da escudo(começa no +20 e vai até o +100) e a bota, que te da mais velocidade(começa no +1 e vai até o +5).</h3>
+                <span>Poções e fragmentos</span>
+                <p>Após você tomar algum dano mágico seja no seu escudo ou na sua vida existem as poções de vida, as poções de proteção, que reparam vida e escudo e os fragmentos de escudo. Existe uma poção que te concede +2 cargas de poder secundário e de runa.</p>
             </article>
             <article>
-                <header><h2>Observando a cartografia celeste</h2></header>
-                <h3>
-                    O mapa do spellbreak é bem vasto e detalhado, porém você precisa saber aonde ir, por isso existem 2 mapas os quais são interessantes de serem observados:
-                </h3>
-                <h3>Mapa com os templos, locais de vigia (aegis warden) e torres de vigia.</h3><img width="631px" src="2613616575_preview_mapa atualizado (1) (1).png">
-                <h3>Mapa com todos os baús épicos.</h3><img width="500px" src="2613616575_preview_spellmap (2) (1) (1) (1).png">
-                <h3>Mapa com todas as safes finais.</h3><img width="500px" src="2613616575_preview_spellsafes.png">
+                <span>Talentos</span>
+                <p>Cada ser humano tem 7 pontos de talento para administrar entre habilidades do corpo, da mente e do espirito, as quais te dão habilidades de redução de efeitos negativos, recuperar vida ao dar dano, não ser aturdido após morrer e muito mais. 
+                Cada talento possui 3 níveis, e para você conseguir melhorar seus talentos você precisa ler o que nós chamamos de pergaminhos com cada parte tendo o seu próprio pergaminho (alguns talentos são renováveis podendo-se ler mais de 3 pergaminhos).</p>
+            </article>
+            <article>
+                <span>Benção</span>
+                <p>Cada manopla tem seu respectivo santuário, que são lugares se dedicam a te dar uma manopla rara e a benção da manopla, que concede ao usuário o nível 1 do respectivo elemento. (dica: pegue a benção exclusivamente de uma manopla secundária)</p>
+            </article>
+            <article>
+                <span>Baús</span>
+                <p>existem 5 tipos de báus: temos 3 deles que são de tamanho (pequeno, médio e grande), temos o baú épico que te da alguma coisa épica e um pergaminho e temos as esféras de mana, que são baús um pouco diferentes. 
+                As esféras de mana são os únicos baús que abrem em 20s e são capazes de dar itens lendários, assim como um baú épico elas dropam um pergaminhi também, porém as esféras não dão apenas itens lendários, elas podem dar itens épicos também.</p>
+            </article>
+        </section>
+        <section>
+            <span>Vestindo a primeira manopla</span>
+            <p>Cada manopla, atualmente 6, tem suas magias, suas habilidades e seus níveis. quando você começa no jogo, ele te da apenas a opção de jogar com a manopla de fogo. 
+            Para iniciar a fila de algum modo de jogo você precisa obrigatoriamente selecionar uma manopla como sendo a principal, já que no decorrer do jogo você vai ganhando habilidades novas (as manoplas secundárias não ganham novas habilidades, exceto ao se pegar uma benção ou com o talento de ambidestro, os quais só garantem o nível 1 da manopla).</p>
+            <ul>
+                <li>
+                    <span class="anospan">Manopla de fogo (piromantes)</span>
+                    <p>sua magia é atirar bolas de fogo e como seu poder secundário ela invoca uma parede de fogo.</p>
+                    <ul>
+                        <li><span>nível 1 (combustão)</span><p>inimigos com acerto direto são incendiados por 2s. raio de explosão da bola de fogo é de +200%.</p></li>
+                        <li><span>nível 2 (vaga-lume)</span><p>suas paredes de fogo agora não te causam mais dano e ao passar pela sua parede de fogo você voa por 2s.</p></li>
+                        <li><span>nível 3 (pirólise)</span><p>suas paredes de fogo queimam com um fogo azul por 2s que da mais 100% de dano.</p></li>
+                        <li><span>nível 4 (conflagração)</span><p>suas bolas de fogo ao acertarem algo se quebram em novos 6 pedacinhos que incendeiam os inimigos.</p></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="anospan">Manopla de pedra (moldapedras)</span>
+                    <p>sua magia é atacar o chão e criar uma fenda no chão chamada abalo sísmico e seu poder secundário é moldar uma bola de pedra e atira-la.</p>
+                        <ul>
+                            <li><span>nível 1 (pele de pedra)</span><p>o usuário recebe 20 de escudo adicional e ao criar um abalo sísmico reparar 3 de escudo.</p></li>
+                            <li><span>nível 2 (alicerce)</span><p>ao usar um abalo sísmico o usuário irá acelerar em direção ao chão.</p></li>
+                            <li><span>nível 3 (acreção)</span><p>a sua pedra cresce de tamanho conforme fica no ar.</p></li>
+                            <li><span>nível 4 (avalanche)</span><p>o usuário consegue carregar uma pedra adicional.</p></li>
+                        </ul>
+                </li>
+                <li>
+                    <span class="anospan">Manopla de raio (conduíte)</span>
+                    <p>sua magia é lançar flechas de raio e como poder secundário você invoca um raio.</p>
+                        <ul>
+                            <li><span>nível 1 (energia potencial)</span><p>para cada flecha lançada o dano aumenta em mais 1 estagnando em mais 5 até o fim da conjuração.</p></li>
+                            <li><span>nível 2 (sobrecarga)</span><p>ao invocar um raio você ganha 1 carga de runa adicional.</p></li>
+                            <li><span>nível 3 (pico de energia)</span><p>ao invocar um raio suas flechas de mana passarão a custar 0 de mana e sua mana regenera mais rápido por 4s.</p></li>
+                            <li><span>nível 4 (descarga secundária)</span><p>ao invocar um raio caem 5 raios no lugar invocado.</p></li>
+                        </ul>
+                </li>
+                <li>
+                    <span class="anospan">Manopla de tóxico (toxicologista)</span>
+                    <p>sua magia é atirar jatos de veneno e como poder secundário você lança uma núvem tóxica.</p>
+                    <ul>
+                        <li><span>nível 1 (viscosidade)</span><p>ao entrar em contato com o chão os jatos tóxicos formam uma poça pegajosa que da dano.</p></li>
+                        <li><span>nível 2 (névoa evanescente)</span><p>o usuário se torna imune à sua própria nuvem tóxica e ao passar por ela você fica invisível por 3s e é impulsionado.</p></li>
+                        <li><span>nível 3 (surto)</span><p>enquanto estiver invisível os jatos tóxicos darão +75% de dano.</p></li>
+                        <li><span>nível 4 (espalhando a doença)</span><p>o usuário atira 3 nuvens tóxicas de uma vez.</p></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="anospan">Manopla de gelo (filho do gelo)</span>
+                    <p>sua magia é criar uma flecha de gelo e como poder secundário o usuário conjura uma um anel de gelo que congela quem estiver dentro dele menos o usuário.</p>
+                    <ul>
+                        <li><span>nível 1 (entusiasmo congelado)</span><p>sua flecha de gelo deixa um rastro na superfície, você ganha velocidade e fica imune ao congelamento e retardamento.</p></li>
+                        <li><span>nível 2 (estaca de gelo)</span><p>ao mirar você a silhueta dos inimigos aparece e ao estar 100% carregado a flecha custará 0 de mana.</p></li>
+                        <li><span>nível 3 (tundra)</span><p>enquanto cunjura seu anel de gelo o usuário fica imune e o anel perdura por mais 100%.</p></li>
+                        <li><span>nível 4 (prisma de gelo)</span><p>ao sobrecarrecar por mais 0,5s a flecha dará mais 35% de dano.</p></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="anospan">Manopla de vento (tempestade)</span>
+                    <p>sua magia é lançar navalhas de ar e como poder secundário o usuário conjura um tornado.</p>
+                    <ul>
+                        <li><span>nível 1 (explosão de vento)</span><p>ao atirar navalhas de vento pelas superfícies o usuário é jogada para trás.</p></li>
+                        <li><span>nível 2 (corrente de ar)</span><p>usuário imune à atração de seu tornado e ao entrar nele, levado ao ar.</p></li>
+                        <li><span>nível 3 (ventania)</span><p>ao atirar navalhas em alguma superfície ou entrar em seu tornado o usuário receberá um aumento de 20% de dano mágico e menos 10% de dano.</p></li>
+                        <li><span>nível 4 (rajada súbita)</span><p>por 1s ao estar no ar sua velocidade de recarga de feitiço aumenta em 100%.</p></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <span>Usando a primeira runa</span>
+            <p>As runas são itens que em suma te darão alguma espécie de movimento, como a runa da investida(popularmente chamada de dash), mas existem outras runas que não tem o foco em te dar um movimento imediato. Atualmente existem 9 runas:</p>
+            <ul>
+                <li><span>Runa de passos sombrios</span><p>essa runa te torna invisível por 1s e te leva 8m para para frente.</p></li>
+                <li><span>Runa de teletransporte</span><p>essa runa te teletransporta para a posição desejada (máx. de 60m).</p></li>
+                <li><span>Runa do mestre do tempo</span><p>ao ativar a runa ela irá gravar o seu estado físico e após 4s irá te retornar ao mesmo lugar e com a msm quantidade de vida e escudo e retira efeitos negativos.</p></li>
+                <li><span>Runa do sangue de lobo</span><p>ao ativar a runa o usuário será capaz de ver os inimigos atrás de qualquer coisa em um raio de 100m e ganhará +4 de velocidade.</p></li>
+                <li><span>Runa dos passos saltitantes</span><p>ao usar ela o usuário dará um salto de 15m e subir uma altura de 5m.</p></li>
+                <li><span>Runa do voo</span><p>o usuário será capaz de voar por 5s, mas será interrompido após uma colisão ou ao usar outro movimento.</p></li>
+                <li><span>Runa da pluma</span><p>o usuário será levado aos céus por 22m e só poderá ser utilizada outra vez após tocar o chão. após chegar ao seu ápice começará a cair lentamente ou até que o usuário use alguma magia.</p></li>
+                <li><span>Runa da investida</span><p>ao usar a runa era te impulsionará para a direção escolhida por até 16m.</p></li>
+                <li><span>Runa da invisibilidade</span><p>essa runa te deixa invisível e te da um bônus de +3 de velocidade por 8s.</p></li>
+            </ul>
+        </section>
+        <section>
+            <article>
+                <span>Jóias Magicas</span>
+                <p>Os equipamentos são: o amuleto, que da mais mana(começa com +10 e vai até +50), o cinto, que te da escudo(começa no +20 e vai até o +100) e a bota, que te da mais velocidade(começa no +1 e vai até o +5).</p>
+            </article>
+            <article>
+                <span>Observando a cartografia celeste</span>
+                <p>O mapa do spellbreak é bem vasto e detalhado, porém você precisa saber aonde ir, por isso existem 2 mapas os quais são interessantes de serem observados:</p>
+                <p>Mapa com os templos, locais de vigia (aegis warden) e torres de vigia.</p><img width="631px" src="2613616575_preview_mapa atualizado (1) (1).png">
+                <p>Mapa com todos os baús épicos.</p><img width="500px" src="2613616575_preview_spellmap (2) (1) (1) (1).png">
+                <p>Mapa com todas as safes finais.</p><img width="500px" src="2613616575_preview_spellsafes.png">
             </article>
         </section>
     </main>
